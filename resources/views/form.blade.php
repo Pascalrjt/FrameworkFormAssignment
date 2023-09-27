@@ -27,7 +27,7 @@
         <textarea name="description" id="description"></textarea>
         <br>
 
-        <label for="double_value">Double Value (between 2.50 and 99.99):</label>
+        <label for="height">Height:</label>
         <input type="number" name="double_value" id="double_value" step="0.01" min="2.50" max="99.99">
         <br>
 

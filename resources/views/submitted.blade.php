@@ -51,10 +51,10 @@
 <body>
     <div class="tombstone">
         <h1>Rest In Two Pieces</h1>
-        <p>Our beloved {{ $data['data'] }}</p>
+        <p>Our beloved <br >{{ $data['data'] }}</p>
         <p>{{ $data['date_of_birth'] }} - {{ $data['date_of_death'] }}</p>
         <p>{{ $data['description'] }}</p>
-        <p>Double Value: {{ $data['double_value'] }}</p>
+        <p>Height: {{ $data['double_value'] }}</p>
 
         @if(isset($data['image']))
             <p>Uploaded Image:</p>
