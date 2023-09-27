@@ -11,7 +11,7 @@
         <input type="text" name="data" id="data">
         <br>
 
-        <label for="image">Upload Image (max 2MB, .png, .jpg, .jpeg):</label>
+        <label for="image">Upload Image:</label>
         <input type="file" name="image" id="image" accept=".png, .jpg, .jpeg" maxlength="2097152">
         <br>
 
